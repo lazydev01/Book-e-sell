@@ -1,0 +1,145 @@
+.header_red_line{
+    background-color: #f14d54;
+    height: 10px;
+    margin: -10px -8px 20px;
+    padding: 0;
+}
+.tatva_logo{
+    width: 220px;
+    height: 55px;
+}
+
+.paras{
+    display: flex;
+}
+.logo{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+    height: 92px;
+
+}
+.p_login{
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #f14d54;
+}
+.fa-shopping-cart{
+    color: #f14d54;
+}
+.zero{
+    color: #f14d54;
+}
+.cart-elements{
+    margin: 5px;
+}
+
+.cart{
+    /* border: 1px solid rgb(65, 65, 65); */
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    margin: 5px 20px;
+}
+.search{
+    background-color: rgb(236, 236, 236);
+    height: 80px;
+    width: 100%;
+}
+
+
+.paras-cart{
+    display: flex;
+}
+
+#waylf{
+    width: 422px;
+    height: 40px;
+    margin: 20px;
+}
+
+.search-bar{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    margin-right: 550px;
+}
+
+.search-btn{
+    height: 40px;
+    width: 129px;
+    margin: auto 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #80BF32;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel-btn{
+    height: 40px;
+    width: 129px;
+    margin: auto 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f14d54;
+    color: white;
+    cursor: pointer;
+}
+.form input{
+    border: none;
+    padding: 0 10px;
+}
+.form{
+    display: flex;
+}
+
+.btns{
+    margin: auto 15px;
+}
+
+.ftr{
+    width: 100%;
+    height: 200px;
+}
+
+.logo-logo{
+    margin-left: 100px;
+}
+
+.ftr{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.grey-color{
+    color: grey;
+}
+
+.anchor_login{
+    text-decoration: none;
+}
+
+.n-height{
+    height: 400px;
+}
+
+.cart-btn{
+    cursor: pointer;
+    background-color: white;
+    border: 0.5px solid rgb(170, 168, 168);
+    border-radius: 5px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book-E-Sell</title>
+    <link rel="stylesheet" href="/register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header_red_line"></div>
+
+    <div class="logo">
+      <img class="tatva_logo logo-logo" src="/Style-guide/logo" alt="" />
+      <div class="paras-cart">
+        <div class="paras">
+          <a href="/login.html" class="anchor_login"
+            ><p class="p_login">Login</p></a
+          >
+          <p class="p_login">|</p>
+          <a href="/register.html" class="anchor_login"
+            ><p class="p_login" href="/register.html">Register</p></a
+          >
+        </div>
+        <div class="cart">
+          <a href="/cartpage.html">
+            <button class="cart-btn">
+              <i class="fas fa-shopping-cart cart-elements"></i>
+              <span class="zero cart-elements">0</span>
+              <span class="cart-elements">Cart</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="search">
+      <div class="search-bar">
+        <form action="/action.php" class="form">
+          <input
+            type="text"
+            name="waylf"
+            id="waylf"
+            placeholder="What are you looking for?.."
+          />
+
+          <button type="submit" class="search-btn btns">
+            <i class="fa fa-search"></i>
+            Search
+          </button>
+          <button type="reset" class="cancel-btn btns">Cancel</button>
+        </form>
+      </div>
+    </div>
+    <div class="home-login">
+      <a href="/base.html" class="home_login"
+        ><p class="p_home_login">Home</p></a
+      >
+      <p class="p_home_login">></p>
+      <a href="/register.html" class="home_login log-in"
+        ><p class="p_home_login">Create an Account</p></a
+      >
+    </div>
+    <div class="heading">
+      <b><h1 class="h1-heading">Login or Create an Account</h1></b>
+    </div>
+    <hr class="red-line small-width" />
+    <div class="personal">
+      <h3 class="personals">Personal Information</h3>
+      <hr class="grey-line" />
+      <p class="personal-info">
+        Please enter the following information to create your account
+      </p>
+      <form action="/action.php" class="personal-information">
+        <div class="names">
+          <div class="fifty">
+            <p class="name">First Name *</p>
+            <input type="text" name="first-name" id="first-name" />
+          </div>
+          <div class="fifty">
+            <p class="name">Last Name *</p>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+        </div>
+        <div class="n-40"></div>
+        <div class="email">
+          <p class="name">Email *</p>
+          <input type="text" name="user-email" id="user-email" />
+        </div>
+      </form>
+    </div>
+    <div class="n-70"></div>
+    <div class="login-info">
+      <h3 class="login-infos">Login Information</h3>
+      <hr class="grey-line" />
+      <form action="/action.php" class="login-information">
+        <div class="passwords">
+          <div class="fifty">
+            <p class="password">Password *</p>
+            <input type="password" name="first-name" id="first-name" />
+          </div>
+          <div class="fifty">
+            <p class="password">Confirm Password *</p>
+            <input type="password" name="last-name" id="last-name" />
+          </div>
+        </div>
+        <div class="n-60"></div>
+      </form>
+    </div>
+    <div class="register-user">
+      <button class="register-button" id="register-button">
+        <p class="register-text">Register</p>
+      </button>
+    </div>
+    <div class="n-80"></div>
+    <footer class="ftr">
+      <div class="footer">
+        <img class="tatva_logo footer-logo" src="/Style-guide/logo" alt="" />
+        <h3 class="grey-color">
+          &copy; 2015 Tatvasoft.com All Rights Reserved.
+        </h3>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/e52ccff132.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
